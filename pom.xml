@@ -12,5 +12,9 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
-
+    <build>
+        <defaultGoal>package</defaultGoal>
+        <!-- Source directory configuration -->
+        <sourceDirectory>src</sourceDirectory>
+    </build>
 </project>
