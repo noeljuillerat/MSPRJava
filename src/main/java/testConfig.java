@@ -3,7 +3,7 @@ package main.java;
 import java.awt.Desktop;
 import java.io.*;
 
-public class TestConfig {
+public class testConfig {
     public static void main(String[] args) throws Exception {
         File f = new File("docker-nginx/data/source.html");
         try (
