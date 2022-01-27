@@ -1,6 +1,4 @@
 
-N
-docker-nginx/auth/default.conf,c/7/c7ff7246d8a975cc358f79df04f8b89ebe659a61
 M
 docker-nginx/data/source.html,b/3/b38debcfea6fbfc4968f7a3bcf1e3c168a4c751a
 U
@@ -13,18 +11,6 @@ K
 docker-nginx/ssl/server.crt,3/d/3d87edce5211c417e95e44bcd3858706a5bc5887
 V
 &docker-nginx/data/sous/sousSource.html,d/1/d163cab2a933fec43918274415a16664c67f7c28
-K
-docker-nginx/auth/.htpasswd,2/a/2a8b63d05119ce669ba416a975f421155103a252
-J
-docker-nginx/auth/htpasswd,1/8/18474671aa8a3924ad356ceb6e7eba524f2f4764
-C
-docker-nginx/script,2/f/2f3dbaed03b9cc23b04064ea967e7e3a6ba96758
-G
-docker-nginx/nginx.conf,e/5/e521bc41defda46fed3da3e3cad76e6145284827
-O
-docker-nginx/docker-compose.yml,5/d/5d165e966e5766ac7c282d05d19af9c5553b40be
-G
-docker-nginx/Dockerfile,4/c/4c0003c9c3fd6339030b14dfd5825b118dfff389
 M
 src/main/java/testConfig.java,c/9/c99ade2a6f7f3453ec0b77f071003adf3b5288df
 T
@@ -49,3 +35,9 @@ U
 %src/main/resources/annexes/mriggs.txt,e/3/e360f9833c8e7fee7d7a132030a53fe9c759467f
 U
 %src/main/resources/annexes/afoley.txt,2/e/2e8f8f45e74d7a55f4cf67e1a8512640eaf4632b
+O
+docker-nginx/docker-compose.yml,5/d/5d165e966e5766ac7c282d05d19af9c5553b40be
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+N
+docker-nginx/auth/default.conf,c/7/c7ff7246d8a975cc358f79df04f8b89ebe659a61
