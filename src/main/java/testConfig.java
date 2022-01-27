@@ -18,5 +18,7 @@ public class testConfig {
 
         Desktop.getDesktop().browse(f.toURI());
     }
-
+    public static int add(int a, int b){
+        return  a + b;
+    }
 }

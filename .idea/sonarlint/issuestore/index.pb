@@ -11,8 +11,6 @@ K
 docker-nginx/ssl/server.crt,3/d/3d87edce5211c417e95e44bcd3858706a5bc5887
 V
 &docker-nginx/data/sous/sousSource.html,d/1/d163cab2a933fec43918274415a16664c67f7c28
-M
-src/main/java/testConfig.java,c/9/c99ade2a6f7f3453ec0b77f071003adf3b5288df
 T
 $src/main/resources/annexes/jwest.txt,d/8/d8efe4cc3c9669a93aca9c1eb36de72ff098ebf3
 T
