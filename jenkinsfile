@@ -36,10 +36,9 @@ pipeline {
       junit '**/target/*-reports/*.xml'
     }
     always {
-      junit(
+      junit
         allowEmptyResults: true,
         testResults: '**/target/surefire-reports/.xml'
-      )
     }
   }
 }
