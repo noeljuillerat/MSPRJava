@@ -17,6 +17,11 @@ public class testConfig {
         bw.close();
 
         Desktop.getDesktop().browse(f.toURI());
+
+        //test
+        add(10, 20);
+
+
     }
     public static int add(int a, int b){
         return  a + b;
