@@ -15,6 +15,12 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <properties>
@@ -27,7 +33,6 @@
         <sourceDirectory>src</sourceDirectory>
         <plugins>
             <!-- Unit Tests -->
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -44,7 +49,6 @@
                         <include>**/*UnitTest</include>
                         <include>**/*CompTest</include>
                     </includes>
-
                     <argLine>-Xms512m -Xmx1500m</argLine>
 
                 </configuration>

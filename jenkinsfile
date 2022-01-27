@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        sh 'mvn clean test'
+        sh 'mvn test'
       }
     }
     stage('Build') {
@@ -25,8 +25,11 @@ pipeline {
       steps {
         sh 'mvn clean verify sonar:sonar \
               -Dsonar.projectKey=goSecuri \
-              -Dsonar.host.url=http://localhost:9000 \
-              -Dsonar.login=cc9cf8a781d6fcf1c3eaadeb3db587d9680ab585'
+               -Dsonar.sources=. \
+               -Dsonar.tests.inclusions=src/test/**/* \
+               -Dsonar.exclusions=**/test/**/* \
+               -Dsonar.host.url=http://localhost:9000 \
+               -Dsonar.login=cc9cf8a781d6fcf1c3eaadeb3db587d9680ab585'
       }
     }
   }
