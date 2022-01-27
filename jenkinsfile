@@ -7,7 +7,7 @@ pipeline {
   stages {
     stage('Initialize'){
       steps{
-        //echo "PATH = ${M2_HOME}/bin:${PATH}"
+        echo "PATH = ${M2_HOME}/bin:${PATH}"
         echo "M2_HOME = /opt/maven"
       }
     }
@@ -38,7 +38,7 @@ pipeline {
     always {
       junit(
         allowEmptyResults: true,
-        testResults: '**/target/*-reports/*.xml'
+        testResults: '**/target/surefire-reports/*.xml'
       )
     }
   }
