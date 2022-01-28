@@ -1,0 +1,17 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.ligne{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+}
+.text{
+    display: flex;
+    
+}
