@@ -4,4 +4,5 @@ sécurité d’évènement
 U5R9qcP54gdE5
 
 brassard
-détecteur
+cyno
+talky

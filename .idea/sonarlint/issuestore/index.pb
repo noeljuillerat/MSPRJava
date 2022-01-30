@@ -1,6 +1,4 @@
 
-M
-docker-nginx/data/source.html,b/3/b38debcfea6fbfc4968f7a3bcf1e3c168a4c751a
 U
 %docker-nginx/ssl/server.key.protected,4/c/4cf7d9b1c5391e20e72839bdd982e23410d41db5
 K
@@ -9,8 +7,6 @@ K
 docker-nginx/ssl/server.csr,b/4/b49424695899aa500a6a2c5d1cfc9d3ad79f9f45
 K
 docker-nginx/ssl/server.crt,3/d/3d87edce5211c417e95e44bcd3858706a5bc5887
-V
-&docker-nginx/data/sous/sousSource.html,d/1/d163cab2a933fec43918274415a16664c67f7c28
 T
 $src/main/resources/annexes/jwest.txt,d/8/d8efe4cc3c9669a93aca9c1eb36de72ff098ebf3
 T
@@ -33,18 +29,70 @@ U
 %src/main/resources/annexes/mriggs.txt,e/3/e360f9833c8e7fee7d7a132030a53fe9c759467f
 U
 %src/main/resources/annexes/afoley.txt,2/e/2e8f8f45e74d7a55f4cf67e1a8512640eaf4632b
+U
+%src/test/java/HelloworldUnitTest.java,8/1/813c06332723ac41642d00c4383187fdb9b415dd
+A
+Donnees/README.md,3/4/342c01ce067d111a13f82f989f6c4f39ddb804bf
+H
+src/main/java/Staff.java,9/4/9439e1cbd9e5327c8645187d09c54fa5eaeb3386
+T
+$docker-nginx/data/afoley/afoley.html,2/d/2d23b721d3392aca2f5d07fc40a2c87ad92a83b9
+Z
+*docker-nginx/data/jmacclane/jmacclane.html,d/b/db33920104f502cbc4ca779aaaba7fda0a7e3512
 O
-docker-nginx/docker-compose.yml,5/d/5d165e966e5766ac7c282d05d19af9c5553b40be
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+src/main/java/GetStaffData.java,9/5/95554c911cf97d80a95bd02d7545b9ba98f8c303
+Z
+*docker-nginx/data/cberthier/cberthier.html,0/8/08989700f7c50933e91f497ec31c3a1b1c432b24
+I
+Donnees/afoley/afoley.txt,6/d/6d875e313466233748f507fcfc39aee7d52e6abc
+O
+Donnees/cberthier/cberthier.txt,f/6/f6cea2760419e4c70f2e73fc6a2ffc2f2c3ed538
+O
+Donnees/jmacclane/jmacclane.txt,3/f/3fe77c63899ad953b3dbd93258df9fa1f8a082e4
+W
+'Donnees/jrouletabille/jrouletabille.txt,b/b/bb0ed1179b6778b1513731d80f223c4d85844f36
+G
+Donnees/jwest/jwest.txt,b/6/b64f2f919b540cdcd10e6e2ed7fc6f62a71623be
+I
+Donnees/mriggs/mriggs.txt,8/d/8d056e08a049f27f613e7767d7ac843ab98264b2
+A
+Donnees/staff.txt,2/8/28861d865b92b4fcbca59ee1c208d719368da0fd
+K
+Donnees/sholmes/sholmes.txt,8/5/852f75ec64de6bcb3274b0c974bf03cb1716ca7d
+T
+$docker-nginx/data/csarah/csarah.html,c/a/ca103e90b2dc9ce066cd315c5c013a9b2584034e
+K
+Donnees/sconnor/sconnor.txt,b/e/be0e72297e5561cb26c158ffbcacbf2ffd83111a
+A
+Donnees/liste.txt,6/a/6a02223989d99046e3f3a621b70a12fd0aeb5e2c
+P
+ docker-nginx/data/testIndex.html,5/a/5a4eed523a5720fe189b029cd0f322ff20f4e35c
+V
+&docker-nginx/data/sholmes/sholmes.html,5/c/5c63902190bfa83a436260ffcf50a290efa94059
+V
+&docker-nginx/data/sconnor/sconnor.html,5/2/52f745146606c33669bb039564187f73ea022349
+P
+ docker-nginx/data/testStaff.html,0/6/063efccde4ac7087e7147bb81460587426757300
+L
+docker-nginx/data/index.html,5/3/53c08e88710c939fdbcecb4334179cb7082a72d9
 N
 docker-nginx/auth/default.conf,c/7/c7ff7246d8a975cc358f79df04f8b89ebe659a61
-K
-docker-nginx/auth/.htpasswd,2/a/2a8b63d05119ce669ba416a975f421155103a252
-C
-docker-nginx/script,2/f/2f3dbaed03b9cc23b04064ea967e7e3a6ba96758
+L
+docker-nginx/auth/testPasswd,2/3/23b847c546c66be9b100ab0a7733816ab9836477
+Q
+!src/main/java/PrintStaffPage.java,1/7/17ebf7e9abc8f58579306034dc285268d9ec2bb4
+Q
+!src/main/java/PrintPasswords.java,2/7/27ddca18ee04898f911fa69e82f41831445db422
+G
+src/main/java/Main.java,e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10
 J
 docker-nginx/auth/htpasswd,1/8/18474671aa8a3924ad356ceb6e7eba524f2f4764
+C
+docker-nginx/script,2/f/2f3dbaed03b9cc23b04064ea967e7e3a6ba96758
+O
+docker-nginx/docker-compose.yml,5/d/5d165e966e5766ac7c282d05d19af9c5553b40be
+K
+docker-nginx/auth/.htpasswd,2/a/2a8b63d05119ce669ba416a975f421155103a252
 G
 docker-nginx/Dockerfile,4/c/4c0003c9c3fd6339030b14dfd5825b118dfff389
 G

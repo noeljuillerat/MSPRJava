@@ -1,3 +1,6 @@
+main/java/Main.class
+main/java/GetStaffData.class
 test/java/HelloworldUnitTest.class
-main/java/testConfig.class
+main/java/PrintPasswords.class
+main/java/PrintStaffPage.class
 main/java/Staff.class

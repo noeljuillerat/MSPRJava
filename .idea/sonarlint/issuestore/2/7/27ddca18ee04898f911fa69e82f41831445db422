@@ -1,0 +1,6 @@
+
+Q	java:S125 "<This block of commented-out lines of code should be removed.(±³›Ì
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+u
+java:S1104"ZMake listObjetStaff a static final constant or non-public and provide accessors if needed.(¨Êª«ÿÿÿÿÿ

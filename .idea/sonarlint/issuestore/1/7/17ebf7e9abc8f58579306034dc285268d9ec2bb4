@@ -1,0 +1,13 @@
+
+A
+java:S1075"&Remove this hard-coded path-delimiter.(¨û”œøÿÿÿÿ
+Q	java:S125D"<This block of commented-out lines of code should be removed.(±³›Ì
+`
+java:S1192+"JDefine a constant instead of duplicating this literal "<li>Nom: " 3 times.(·®ñù
+]
+java:S1192+"GDefine a constant instead of duplicating this literal "</li>
+" 3 times.(·®ñù
+l
+java:S1104"QMake staff a static final constant or non-public and provide accessors if needed.(ÐÞ˜Äùÿÿÿÿ
+p
+java:S1104"UMake listMater a static final constant or non-public and provide accessors if needed.(ðâö˜þÿÿÿÿ

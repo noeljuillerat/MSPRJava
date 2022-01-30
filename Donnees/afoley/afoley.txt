@@ -3,3 +3,6 @@ Axel
 gardiennage
 46dfbZ575NAxW
 
+gants
+brassard
+menottes
