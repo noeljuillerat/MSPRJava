@@ -93,8 +93,6 @@ K
 docker-nginx/auth/.htpasswd,2/a/2a8b63d05119ce669ba416a975f421155103a252
 G
 docker-nginx/nginx.conf,e/5/e521bc41defda46fed3da3e3cad76e6145284827
-O
-docker-nginx/docker-compose.yml,5/d/5d165e966e5766ac7c282d05d19af9c5553b40be
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 G

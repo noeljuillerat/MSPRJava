@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  gos ecuri:
+  gosecuri:
     container_name: serverNginx
     #restart: unless-stopped
     build:
