@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  environment {
+      PATH = "$PATH:/usr/local/bin"
+  }
   tools {
     maven "maven384"
     jdk "jdk11"
@@ -25,6 +28,7 @@ pipeline {
           }
         }
         steps {
+            echo "PATH is: $PATH"
             sh 'cd docker-nginx'
             sh '/usr/local/bin/docker-compose up --build -d'
         }
