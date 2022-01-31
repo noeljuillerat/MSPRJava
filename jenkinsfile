@@ -7,29 +7,15 @@ pipeline {
   stages {
     stage('Initialize'){
       steps{
+        deleteDir()
+        checkout scm
         echo "PATH = ${M2_HOME}/bin:${PATH}"
         echo "M2_HOME = /opt/maven"
       }
     }
-    stage('Test') {
-      steps {
-        sh 'mvn test'
-      }
-    }
     stage('Build') {
       steps {
-        sh 'mvn package'
-      }
-    }
-    stage('SonarQube Analysis') {
-      steps {
-        sh 'mvn clean verify sonar:sonar \
-              -Dsonar.projectKey=goSecuri \
-               -Dsonar.sources=. \
-               -Dsonar.tests.inclusions=src/test/**/* \
-               -Dsonar.exclusions=**/test/**/* \
-               -Dsonar.host.url=http://localhost:9000 \
-               -Dsonar.login=cc9cf8a781d6fcf1c3eaadeb3db587d9680ab585'
+        sh 'mvn clean package'
       }
     }
     stage('Deploy') {
@@ -39,20 +25,11 @@ pipeline {
           }
         }
         steps {
-            sh 'make publish'
+            sh 'docker stop serverNginx'
+            sh 'docker rm serverNginx'
+            sh 'cd docker-nginx'
+            sh 'docker compose up -d'
         }
-    }
-  }
-  post {
-    success {
-
-      junit '**/target/*-reports/*.xml'
-    }
-    always {
-      junit (
-        allowEmptyResults: true,
-        testResults: '**/target/surefire-reports/*.xml'
-      )
     }
   }
 }
