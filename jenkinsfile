@@ -25,8 +25,6 @@ pipeline {
           }
         }
         steps {
-            sh 'docker stop serverNginx'
-            sh 'docker rm serverNginx'
             sh 'cd docker-nginx'
             sh 'docker compose up -d'
         }
