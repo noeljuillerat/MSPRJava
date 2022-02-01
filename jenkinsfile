@@ -6,7 +6,6 @@ pipeline {
   tools {
     maven "maven384"
     jdk "jdk11"
-    'org.jenkinsci.plugins.docker.commons.tools.DockerTool' '18.09'
   }
   stages {
     stage('Initialize'){
