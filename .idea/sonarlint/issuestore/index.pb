@@ -95,5 +95,3 @@ G
 docker-nginx/nginx.conf,e/5/e521bc41defda46fed3da3e3cad76e6145284827
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-G
-docker-nginx/Dockerfile,4/c/4c0003c9c3fd6339030b14dfd5825b118dfff389
