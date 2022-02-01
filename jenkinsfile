@@ -30,7 +30,7 @@ pipeline {
         steps {
             echo "PATH is: $PATH"
             sh 'cd docker-nginx'
-            sh '/usr/local/bin/docker-compose up --build -d'
+            sh 'docker compose up --build -d'
         }
     }
   }
