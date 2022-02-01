@@ -35,14 +35,8 @@ A
 Donnees/README.md,3/4/342c01ce067d111a13f82f989f6c4f39ddb804bf
 H
 src/main/java/Staff.java,9/4/9439e1cbd9e5327c8645187d09c54fa5eaeb3386
-T
-$docker-nginx/data/afoley/afoley.html,2/d/2d23b721d3392aca2f5d07fc40a2c87ad92a83b9
-Z
-*docker-nginx/data/jmacclane/jmacclane.html,d/b/db33920104f502cbc4ca779aaaba7fda0a7e3512
 O
 src/main/java/GetStaffData.java,9/5/95554c911cf97d80a95bd02d7545b9ba98f8c303
-Z
-*docker-nginx/data/cberthier/cberthier.html,0/8/08989700f7c50933e91f497ec31c3a1b1c432b24
 I
 Donnees/afoley/afoley.txt,6/d/6d875e313466233748f507fcfc39aee7d52e6abc
 O
@@ -59,22 +53,14 @@ A
 Donnees/staff.txt,2/8/28861d865b92b4fcbca59ee1c208d719368da0fd
 K
 Donnees/sholmes/sholmes.txt,8/5/852f75ec64de6bcb3274b0c974bf03cb1716ca7d
-T
-$docker-nginx/data/csarah/csarah.html,c/a/ca103e90b2dc9ce066cd315c5c013a9b2584034e
 K
 Donnees/sconnor/sconnor.txt,b/e/be0e72297e5561cb26c158ffbcacbf2ffd83111a
 A
 Donnees/liste.txt,6/a/6a02223989d99046e3f3a621b70a12fd0aeb5e2c
 P
  docker-nginx/data/testIndex.html,5/a/5a4eed523a5720fe189b029cd0f322ff20f4e35c
-V
-&docker-nginx/data/sholmes/sholmes.html,5/c/5c63902190bfa83a436260ffcf50a290efa94059
-V
-&docker-nginx/data/sconnor/sconnor.html,5/2/52f745146606c33669bb039564187f73ea022349
 P
  docker-nginx/data/testStaff.html,0/6/063efccde4ac7087e7147bb81460587426757300
-L
-docker-nginx/data/index.html,5/3/53c08e88710c939fdbcecb4334179cb7082a72d9
 N
 docker-nginx/auth/default.conf,c/7/c7ff7246d8a975cc358f79df04f8b89ebe659a61
 L
@@ -91,7 +77,5 @@ C
 docker-nginx/script,2/f/2f3dbaed03b9cc23b04064ea967e7e3a6ba96758
 K
 docker-nginx/auth/.htpasswd,2/a/2a8b63d05119ce669ba416a975f421155103a252
-G
-docker-nginx/nginx.conf,e/5/e521bc41defda46fed3da3e3cad76e6145284827
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
