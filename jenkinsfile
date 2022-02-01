@@ -6,6 +6,7 @@ pipeline {
   tools {
     maven "maven384"
     jdk "jdk11"
+     'org.jenkinsci.plugins.docker.commons.tools.DockerTool' '18.09'
   }
   stages {
     stage('Initialize'){
@@ -30,7 +31,7 @@ pipeline {
         steps {
             echo "PATH is: $PATH"
             sh 'cd docker-nginx'
-            sh '/usr/local/bin/docker compose up --build -d'
+            sh '/usr/local/bin/docker-compose up --build -d'
         }
     }
   }
