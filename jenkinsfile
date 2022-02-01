@@ -1,7 +1,8 @@
 pipeline {
   agent any
   environment {
-      PATH = "$PATH:/usr/local/bin"
+    DATE = new Date().format('yy.M')
+    TAG = "${DATE}.${BUILD_NUMBER}"
   }
   tools {
     maven "maven384"
@@ -33,7 +34,6 @@ pipeline {
         steps {
             sh "docker stop gosecuri-docker | true"
             sh "docker rm gosecuri-docker | true"
-            echo "PATH is: $PATH"
             sh 'cd docker-nginx'
             sh '/usr/local/bin/docker-compose up --build -d'
         }
