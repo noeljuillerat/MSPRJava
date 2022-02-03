@@ -7,13 +7,13 @@ services:
     #restart: unless-stopped
     build:
       context: .
-      dockerfile: /docker-nginx/Dockerfile
+      dockerfile: ./docker-nginx/Dockerfile
     ports:
       - 80:80
       - 443:443
     volumes:
-      - /docker-nginx/auth/.htpasswd:/etc/nginx/conf.d/.htpasswd:ro
-      - /docker-nginx/ssl/:/ssl/:ro
-      - /docker-nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
-      - /docker-nginx/data/:/usr/share/nginx/html/:rw
-      - /docker-nginx/logs/:/var/log/nginx/:rw
+      - ./docker-nginx/auth/.htpasswd:/etc/nginx/conf.d/.htpasswd:ro
+      - ./docker-nginx/ssl/:/ssl/:ro
+      - ./docker-nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./docker-nginx/data/:/usr/share/nginx/html/:rw
+      - ./docker-nginx/logs/:/var/log/nginx/:rw
