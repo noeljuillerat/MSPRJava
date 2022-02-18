@@ -4,8 +4,8 @@ pipeline {
       PATH = "$PATH:/usr/local/bin"
   }
   tools {
-    maven "maven384"
-    jdk "jdk11"
+    maven 'maven384'
+    jdk 'jdk11'
   }
   stages {
     stage('Initialize'){
