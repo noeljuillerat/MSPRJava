@@ -18,7 +18,7 @@ pipeline {
     }
     stage('Build') {
       steps {
-        sh 'mvn clean verify sonar:sonar -Dsonar.projectKey=goSecuri -Dsonar.sources=. -Dsonar.tests.inclusions=src/test/**/* -Dsonar.exclusions=**/test/**/* -Dsonar.host.url=http://localhost:9000 -Dsonar.login=cc9cf8a781d6fcf1c3eaadeb3db587d9680ab585'
+        sh 'mvn clean verify compile sonar:sonar -Dsonar.projectKey=goSecuri -Dsonar.sources=. -Dsonar.tests.inclusions=src/test/**/* -Dsonar.exclusions=**/test/**/* -Dsonar.host.url=http://localhost:9000 -Dsonar.login=cc9cf8a781d6fcf1c3eaadeb3db587d9680ab585'
       }
     }
     stage('Deploy') {

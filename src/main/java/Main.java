@@ -8,7 +8,6 @@ public class Main {
     public static void main(String[] args) throws Exception {
         //get la liste des agents
         List<String> listStaff = new ArrayList<>();
-
         listStaff = readFileGetStaff("Donnees/staff.txt");
         //générer le page d'index
         printIndexPage(listStaff);
