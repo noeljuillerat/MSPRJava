@@ -13,7 +13,7 @@ pipeline {
         deleteDir()
         checkout scm
         echo "PATH = ${M2_HOME}/bin:${PATH}"
-        echo "M2_HOME = /opt/maven"
+        echo "M2_HOME = $M2_HOME"
       }
     }
     stage('Build') {
