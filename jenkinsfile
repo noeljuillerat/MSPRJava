@@ -23,7 +23,7 @@ pipeline {
     }
     stage('Run') {
       steps {
-        sh 'mvn exec:java -Dexec.mainClass="main.java.Main"'
+        sh 'mvn exec:java -Dexec.mainClass=main.java.Main'
       }
     }
     stage('Deploy') {
