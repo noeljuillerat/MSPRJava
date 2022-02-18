@@ -13,9 +13,23 @@
 
 </head>
 <body>
-    <img alt="logo de l'entreprise" src="logo.png">
-    <img alt="exemple de carte d'intentitée" src="sholmes.jpg">
+    <div class="blocbleu">
+        <div class="logo">
+            <img alt="logo de l'entreprise" src="logo.png">
+        </div>
+        
+        <div class="identification">identification</div>
+        <div class="copyright">
+            <p>Copyright © - 2022 GO Securi - All Rights Reserved </p>
+        </div>
+    </div>
+   
+    <div class="carteidentiteblock">
+        <img class="carte"  alt="exemple de carte d'intentitée" src="sholmes.jpg">
+    </div>
+    
     <div class="blockcheck">
+
         <div class="ligne">
             <div class="text">
                 <label for="scales">Mousqueton</label>
@@ -31,7 +45,7 @@
                 <label for="scales">Gants d'intervention</label>
             </div>  
             <div class="box">
-                <input type="checkbox" id="gants" name="gants"
+                <input type="checkbox" id="gants" name="gants" 
                    checked>
             </div>  
             
@@ -70,8 +84,10 @@
             <div class="text">
                 <label for="scales">Talkies walkies</label>
             </div>
-            <input type="checkbox" id="talky" name="talky"
+            <div class="box">
+                <input type="checkbox" id="talky" name="talky"
                    checked>
+            </div>
         </div>
         <div class="ligne">
             <div class="text">
@@ -113,6 +129,11 @@
             </div>
             
         </div>
+    </div>
+    <div>
+        <input class="liste"
+            type="button"
+            value="Retour à la liste">
     </div>
 </body>
 </html>

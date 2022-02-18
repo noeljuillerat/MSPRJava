@@ -1,17 +1,88 @@
-html, body {
-    font-family: 'Roboto', sans-serif;
+*, ::before, ::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 
+
+body {
+	font-family: 'Roboto', sans-serif;
+    
+}
+
+.blocbleu{
+    height: 100%;
+    width: 25%;
+    background-color : #379EC1;
+    z-index: 1;
+    position: absolute;
+    
+}
+
+.blockcheck{
+    height: 50%;
+    width: 20%;
+    margin-left: 40%;
+    
+    margin-top: 15%;
+    border: solid;
+    border-radius: 5%;
+    font-size: small;
+    
+    
+}
 .ligne{
     
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 5px;
-}
-.text{
-    display: flex;
+    justify-content: right;
+    margin-top: 3%;
+    margin-bottom: 3%;
     
 }
+.text{
+    padding-right: 10px;
+}
+.box{
+    padding-right: 10%;
+}
+
+
+.carteidentiteblock{
+    display: flex;
+    justify-content: end;
+    z-index: -1;
+    padding-right: 3%;
+    padding-top: 3%;
+    
+}
+
+.carte{
+    width: 25%;
+    height: 10%;
+    box-shadow: -10px 10px 5px #659224;
+}
+
+input[type="checkbox"] { /* change "blue" browser chrome to yellow */
+    filter: invert(100%) hue-rotate(42deg) brightness(97%);
+  }
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    
+}
+
+.identification{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.copyright{
+    position:absolute;
+    bottom:0;
+
+}
+
