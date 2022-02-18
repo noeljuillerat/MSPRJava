@@ -8,10 +8,11 @@ public class Main {
     public static void main(String[] args) throws Exception {
         //get la liste des agents
         List<String> listStaff = new ArrayList<>();
+
         listStaff = readFileGetStaff("Donnees/staff.txt");
         //générer le page d'index
         printIndexPage(listStaff);
-        //get la listes des matériels
+        //get la liste des matériels
         List<List<String>> listMater = new ArrayList<>();
         listMater = readFileGetListMater("Donnees/liste.txt");
         //get les informations des agents

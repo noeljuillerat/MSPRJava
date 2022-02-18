@@ -5,7 +5,7 @@ pipeline {
   }
   tools {
     maven "maven384"
-    jdk "jdk11"
+    jdk "jdk17"
   }
   stages {
     stage('Initialize'){
@@ -18,7 +18,7 @@ pipeline {
     }
     stage('Build') {
       steps {
-        sh 'mvn clean package'
+        sh 'mvn clean verify package sonar:sonar -Dsonar.projectKey=goSecuri -Dsonar.sources=. -Dsonar.tests.inclusions=src/test/**/* -Dsonar.exclusions=**/test/**/* -Dsonar.host.url=http://localhost:9000 -Dsonar.login=cc9cf8a781d6fcf1c3eaadeb3db587d9680ab585'
       }
     }
     stage('Deploy') {
