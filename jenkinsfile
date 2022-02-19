@@ -26,14 +26,13 @@ pipeline {
         sh 'mvn exec:java -Dexec.mainClass=main.java.Main'
       }
     }
-    stage('Deploy') {
+    stage('Deploy in Nginx Container') {
         when {
           expression {
             currentBuild.result == null || currentBuild.result == 'SUCCESS'
           }
         }
         steps {
-            sh 'cd ..'
             sh 'cp -R docker-nginx/data /Users/mingfangniclot/Desktop/image/docker-nginx/'
         }
     }
