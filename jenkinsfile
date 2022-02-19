@@ -34,7 +34,7 @@ pipeline {
         }
         steps {
             sh 'cd ..'
-            sh 'cp -R docker-nginx /Users/mingfangniclot/Desktop/image/docker-nginx'
+            sh 'cp -R docker-nginx/data /Users/mingfangniclot/Desktop/image/docker-nginx/data'
         }
     }
   }
