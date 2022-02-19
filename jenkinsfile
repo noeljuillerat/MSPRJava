@@ -33,9 +33,10 @@ pipeline {
           }
         }
         steps {
-            echo "PATH is: $PATH"
-            sh 'cd docker-nginx'
-            sh 'docker compose up --build -d'
+            echo "currentPath=$(pwd)"
+            sh 'cd ..'
+            echo "imagePath=$(pwd)"
+            sh 'cp -R $currentPath/docker-nginx $imagePath/docker-nginx'
         }
     }
   }
