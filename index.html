@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="index.css" media="all"/>
+    
 
 </head>
 <body>
@@ -136,4 +136,96 @@
             value="Retour à la liste">
     </div>
 </body>
+<style>
+    *, ::before, ::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+    
+}
+
+.blocbleu{
+    height: 100%;
+    width: 25%;
+    background-color : #379EC1;
+    z-index: 1;
+    position: absolute;
+    
+}
+
+.blockcheck{
+    height: 50%;
+    width: 20%;
+    margin-left: 40%;
+    
+    margin-top: 15%;
+    border: solid;
+    border-radius: 5%;
+    font-size: small;
+    
+    
+}
+.ligne{
+    
+    display: flex;
+    justify-content: right;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+}
+.text{
+    padding-right: 10px;
+}
+.box{
+    padding-right: 10%;
+}
+
+
+.carteidentiteblock{
+    display: flex;
+    justify-content: end;
+    z-index: -1;
+    padding-right: 3%;
+    padding-top: 3%;
+    
+}
+
+.carte{
+    width: 25%;
+    height: 10%;
+    box-shadow: -10px 10px 5px #659224;
+}
+
+input[type="checkbox"] { /* change "blue" browser chrome to yellow */
+    filter: invert(100%) hue-rotate(42deg) brightness(97%);
+  }
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    height: 40%;
+    
+}
+
+.identification{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    font-size: medium;
+}
+
+.copyright{
+    position:absolute;
+    bottom:0;
+    font-size: medium;
+
+}
+</style>
 </html>
